@@ -8,7 +8,7 @@ const nodeMap:Map<string ,HTMLElement | Element | any> = new Map();
 interface ConstructableFunction extends Function {
     new (): any;
 }
-export function Component (nodeId: string = 'root'): Function {
+export function Component (nodeId: string): Function {
     return  (target: ConstructableFunction) => {
         const ins = new target();
         // 第一次插入视图

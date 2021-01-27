@@ -28,6 +28,8 @@
   "include": [
     "core/*.ts",
     "core/di/*.ts",
+    "demo/*.ts",
+    "demo/**/*.ts"
   ],
   "exclude": [
     "node_modules"
