@@ -7,8 +7,8 @@ export class RootComponent extends View{
 
     body(): Element | HTMLElement | string {
         return `
-        <div style="display: flex;justify-content: flex-start;align-items: center">
-          <span style="width:300px;margin-right: 20px">root 组件 -> 当前时间：${this.componentContent}</span>
+        <div>
+          <span>root 组件 -> 当前时间：${this.componentContent}</span>
         </div>`;
     }
     onAppear(): void{
