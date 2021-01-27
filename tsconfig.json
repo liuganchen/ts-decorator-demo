@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "outDir": "dict",
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2018",
+      "scripthost",
+      "dom.iterable",
+      "es2015.symbol"
+    ]
+  },
+  "include": [
+    "core/*.ts",
+    "core/di/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
