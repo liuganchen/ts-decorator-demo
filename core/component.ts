@@ -40,5 +40,8 @@ function updateView(ins:any, nodeId:string){
     }else {
         hostView = nodeMap.get(nodeId);
     }
+    if(!hostView){
+        return;
+    }
     hostView.innerHTML = ins.body();
 }
